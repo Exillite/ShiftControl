@@ -1,0 +1,7 @@
+aiogram
+aiohttp
+aiosocks
+aiohttp_socks
+celery[redis]
+redis
+httpx
