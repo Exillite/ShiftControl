@@ -85,7 +85,11 @@ POSTGRES_USER=example_user
 POSTGRES_PASSWORD=example_password
 POSTGRES_DB=example_db
 POSTGRES_PORT=5432
-PGADMIN_PORT=8080
+
+# pgAdmin
+PGADMIN_DEFAULT_EMAIL=admin@example.com
+PGADMIN_DEFAULT_PASSWORD=admin
+PGADMIN_PORT=5050
 
 # Google Sheets
 GOOGLE_SHEETS_CREDENTIALS_JSON=/app/example_credentials.json
