@@ -47,7 +47,7 @@ ShiftControl/
 │   └── tasks/                   # асинхронная логика + обработка сообщений
 │       ├── new_message.py       # NLP + shift creation, построение из текста и фото
 │       ├── check_sheet_updates.py # сравнение таблицы и состояние shifts
-│       └── promt.py            # prompt (PROMT) для OpenAI
+│       └── promt.py             # prompt (PROMT) для OpenAI
 ├── tg_bot/                      # Telegram-бот
 │   ├── bot.py / main.py         # точка входа бота, обработчики сообщений и команд
 │   ├── handlers/                # бизнес-логика обработчиков (группы, настройки и др.)
@@ -55,6 +55,7 @@ ShiftControl/
 │   ├── services/api.py          # клиент для взаимодействия с core API
 │   ├── services/queue.py        # Celery через broker
 ├── docker-compose.yml           # локальная (dev) инфраструктура
+└──.env                          # Переменные окружения  
 ```
 
 
